@@ -7,6 +7,10 @@ import axios from 'axios'
 
 Vue.config.productionTip = false
 
+Vue.prototype.$http = axios
+
+Vue.prototype.$apiHost = 'http://52.79.40.214:9090'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
